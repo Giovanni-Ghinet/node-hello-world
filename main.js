@@ -1,1 +1,3 @@
-console.log("hello world");
+const input = process.argv;
+
+console.log(input.slice(2));
